@@ -1,0 +1,517 @@
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 50%;
+    border-radius: 15%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer; 
+    
+}
+.navlist{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'quicksand';  
+    
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 26px 30px;
+}
+.navlist li a:hover{
+    /*background-color: rgb(214, 214, 40);*/
+    color: teal;
+    text-decoration: underline;
+}
+.rightnav{
+    position: sticky;
+    width: 50%;
+    text-align: right;
+    
+}
+#search{
+    padding: 5px; 
+    font-size: 17px;
+    border-color: black;
+    border-radius: 5px 30px;
+ 
+}
+.background{
+    /*background: rgba(0, 0,0, 0.7) url('bg2.jpg');*/
+    
+    background-color: white;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    height: 100vh;
+    margin: auto;
+    font-family: 'quicksand';
+}
+.hello{
+    font-size: 2.3em;
+    color: black;
+}
+.name{
+    font-size: 3em;
+    /*color:rgb(214, 214, 40); */
+    color: teal;
+    font-weight: bold;
+    
+}
+.line{
+    font-size: 2.3em;
+    color:black;
+    margin-bottom: 25px;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+}
+.secondhalf{
+    width: 40%;
+}
+.secondhalf img{
+    align-items: flex-end;
+    width: 90%;
+    border-radius: 150px;
+    border: 4px black;
+    display: block;
+    margin: auto;
+    
+}
+.buttons{
+    color: teal;
+    border: 4px black;
+    height: 100px;
+    width: 10vw;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.btn {
+    
+    border-radius: 5px 30px;
+    font-size: 15px;
+    padding: 8px 15px;
+    margin: 8px 5px;
+    box-shadow: 0 5px 5px black;
+    background-color: teal;
+    /*color:rgb(214, 214, 40);*/
+    color: white;
+    /*color: white;*/
+    cursor: grab; 
+    font-weight: bold;
+    font-family: 'Quicksand';
+}
+
+.btn:hover{
+    background-color:black;
+    color:teal;  
+}
+.about{
+    
+    font-family:'Quicksand';
+    flex-direction: column;  
+    background-color:white;
+    /*background-image: url('bg.jpg');*/
+    
+}
+.about h1{
+    text-align: center;
+    font-size: 40px; 
+    font-weight: bolder;
+    color:black;
+    margin: 15px;
+    
+}
+.about .biography{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    background-color: teal;
+    color: white;
+    height: 30vh;
+    width: 80vw;
+    padding: 50px; 
+    font-size: 27px;
+    border-radius: 5px 30px;
+  
+}
+.about .bio{
+    text-align: start;
+    border-radius: 5px 30px;
+    border-color: black;
+    border: solid 2px;
+    padding: 15px;
+    height: 25vh;
+    width: 30vw;
+    box-sizing: border-box; 
+    color:black;
+    background-color: white;
+    font-size: 20px;
+    word-break: break-all;
+}
+
+.about .biography .bio h3,span{
+    font-weight: lighter;
+    word-break: break-all;
+ }
+ 
+.about .me{
+    flex-direction: column;
+    width: 50vw;
+    margin: 10px;
+}
+
+.about .skills{
+    
+    margin:3rem 0;
+ }
+.about .skills .progress{
+    
+    margin-top: 10px;
+ }
+ .about .skills .progress .bar{
+    
+    justify-content: center;
+    align-items: center;
+    margin:10px 400px;
+    max-width: 75rem;
+    border:black 2px;
+    padding: 1.3rem;
+    border-radius: 5px 30px;
+    border-style:solid;
+    border-color: black ;
+    
+    
+ }
+.about .skills .progress .bar h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px ;
+    font-size: 18px;
+    padding:5px 5px;
+    background-color:teal;
+    color: black;
+ }
+.about .skills .progress .bar span{
+    font-weight: normal;
+ }
+.about .skills .progress .bar:nth-child(1) h3{
+    width: 85%;
+ }
+.about .skills .progress .bar:nth-child(2) h3{
+    width: 80%;
+ }
+.about .skills .progress .bar:nth-child(3) h3{
+    width: 55%;
+ }
+.about .skills .progress .bar:nth-child(4) h3{
+    width: 75%;
+ }
+ 
+ .about .edu-exp .row{
+
+    display: flex;
+    align-items: flex-end;
+    gap:10px
+    
+ }
+ .about .edu-exp .row .box-container{
+    
+    flex:16 16 640px;
+    
+ }
+ .about .edu-exp .row .box-container .title{ 
+    border-radius: 5px 30px;
+    margin: 20px 200px;
+    padding:10px;
+    font-size: 32px;
+    color: teal;
+    text-align: center;
+    /*background-color: black;*/
+ }
+.about .edu-exp .row .box-container .box{
+    text-align: center;
+    margin:0.5rem 6rem;
+    padding: 25px;
+    color:black;
+    width: 70%;
+    border-radius: 5px 30px;
+    background-color: teal;
+ }
+ .about .edu-exp .row .box-container .box span{
+    font-size: 20px;
+    color: white;
+ }
+.about .edu-exp .row .box-container .box h3{
+    font-size: 20px;
+    color: black;
+ }
+ .about .edu-exp .row .box-container .box p{
+    font-size: 22px;
+    color: white;
+ }
+
+.services{
+    margin: 100px 100px;
+    background-color: white;
+    font-family: 'quicksand'; 
+    scroll-behavior: smooth;
+}
+.services h1{
+    text-align: center;
+    font-size: 40px; 
+    font-weight: bolder;
+    color:black;
+    margin-top:30px;
+    margin-bottom: 30px;  
+}
+.services .box-container{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+    
+ }
+.services .box-container .box{
+    margin:1rem 1rem;
+    font-size: 1rem;
+    padding: 0.5em;
+    background-color: white;
+    font-weight: normal;
+    border-radius: 5px 30px;
+    border:solid 2px;
+    border-color: black;
+ }
+ .services .box-container .box i{
+    font-size: 30px;
+    color: teal;
+    text-align: center;
+    margin: 2px 200px;
+    
+ }
+.services .box-container .box h3{
+
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    padding:1rem;
+    
+}
+.services .box-container .box p{
+    line-height: 1.3;
+    font-size: 1.3rem;
+    text-align: center;
+ }
+
+.services .box-container .box:hover{
+    border-radius: 5px 30px;
+    background-color: teal;
+    color: black;
+    cursor: grab;
+ }
+.services .box-container .box:hover i{
+    color:white;
+    size: 20px ;
+ }
+.services .box-container .box:hover p{
+    color:white;
+ }
+ 
+
+.contact{
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'quicksand';
+}
+.contact h1{
+    text-align: center;
+    font-size: 50px; 
+    font-weight: bolder;
+    color:black;
+    margin-top:30px;
+    margin-bottom: 30px;  
+}
+.contact form {
+    max-width:1120px ;
+    margin: 0 auto;
+}
+.contact form .box{
+    width: 100%;
+    padding: 1.3rem;
+    font-size: 1rem;
+    text-transform: none;
+    border-radius: 5px 30px;
+    border-color: black;
+    border-style: solid;
+    margin: 0.5rem 0;
+}
+.contact form textarea{
+    height: 10rem;
+    resize: none;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+.contact form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+ }
+ .contact form .flex .box{
+    width: 100%;
+    
+ }
+.contact .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1rem;
+    align-items: center;
+    margin: 50px 100px;
+}
+.contact .box-container .box{
+    padding:1rem 1rem;
+    border-radius: 5px 30px;
+    border: solid 2px;
+    border-color: teal;
+ 
+ }
+ .contact .box-container .box i{
+    margin: 2px 200px;
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    line-height: 3rem;
+    color:teal;
+    text-align: center;
+    
+ }
+ .contact .box-container .box h3{
+    text-align: center;
+    margin:0.5rem 0;
+    font-size: 1.3rem;
+ }
+ 
+ .contact .box-container .box p{
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: none;
+ }
+ .contact .box-container .box:hover{
+    border-radius: 5px 30px;
+    color: teal ;
+    background-color: black;
+ }
+ .follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: teal;
+ }
+ 
+.follow a{
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+    margin:10px 10px;
+    cursor: grab;
+    transition: .6s linear !important;
+    color: black;
+    
+}
+ 
+.follow a:hover{
+    transform: rotate(360deg);
+    color: white;
+    
+ }
+
+ @media (max-width:991px){
+
+    html{
+       font-size: 55%;
+    }
+ 
+    body.active{
+       padding-left: 0;
+    }
+ 
+ }
+ 
+ @media (max-width:450px){
+ 
+    html{
+       font-size: 50%;
+    }
+ 
+    .header.active{
+       padding-top: 7rem;
+    }
+ 
+    #menu-btn.fa-times{
+       right:0;
+    }
+ 
+    .home .image img{
+       height: auto;
+       width: 100%;
+    }
+ 
+    .heading span{
+       font-size: 4rem;
+    }
+ 
+    .about .biography .bio h3{
+       font-size: 1.5rem;
+    }
+ 
+    .contact form .flex .box{
+       width: 100%;
+    }
+
+ 
+ }
+ 
+ 
+ 
+
+ 
+
+
